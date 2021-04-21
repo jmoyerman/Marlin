@@ -146,11 +146,11 @@
   #define E0_CS_PIN                        P1_04
 #endif
 
-#define E1_STEP_PIN                        P1_15
-#define E1_DIR_PIN                         P1_14
-#define E1_ENABLE_PIN                      P1_16
-#ifndef E1_CS_PIN
-  #define E1_CS_PIN                        P1_01
+#define Z2_STEP_PIN                        P1_15
+#define Z2_DIR_PIN                         P1_14
+#define Z2_ENABLE_PIN                      P1_16
+#ifndef Z2_CS_PIN
+  #define Z2_CS_PIN                        P1_01
 #endif
 
 #define TEMP_1_PIN                      P0_23_A0  // A0 (T0) - (67) - TEMP_1_PIN
